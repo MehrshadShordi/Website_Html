@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NavBar */
+
+body{
+    direction: rtl;
+    color: white;
+    font-family: b homa , dubai;
+    background-color: #000080;
+}
+.DivNav{
+    min-width: 600px;
+    max-width: auto;
+    height: 70px;
+    background-color: #000080;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.DivNav p{
+    font-family: "Dubai";
+    font-size: 25px;
+    align-self: center;
+}
+.DivNav ul{
+    display: flex;
+    align-self: center;
+    list-style: none;
+}
+.DivNav ul li{
+    padding-left: 15px;
+}
+.DivNav ul li a:hover{
+    background-color: blue;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+.DivNav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* DIV2 */
+
+.Div2{
+    width: auto;
+    height: 700px;
+    background-image: url("../Resource/CallOfDuty.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.Div2 h1{
+    text-align: center;
+    line-height: 200px;
+    font-size: 75px;
+}
+.Div2 p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+}
+.Div2 p button{
+    width: 250px;
+    height: 75px;
+    background-color: #000080;
+    border: #ffffff 4px solid;
+    font-size: 30px;
+    font-family: b homa , dubai;
+}
+div p button a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Div3 */
+.Div3{
+    display: flex;
+    width: auto;
+    height: 700px;
+    background-color: white;
+}
+.Div3 div{
+    flex-grow: 1;
+    background-color: #696969;
+    border: #000000 5px solid;
+    
+}
+.Div3 .Center{
+   border-right: 0;
+   border-left: 0;
+}
+.Div3 .Center img{
+    width: 682px;
+    height: 690px;
+}
+.Div3 .left img{
+    width: 601px;
+    height: 690px;
+} 
+.Div3 .right img{
+    width: 600px;
+    height: 690px;
+}
+.Div3 .left a:hover {
+    opacity: 65%;
+
+}
+.Div3 .right a:hover {
+    opacity: 65%;
+
+}
+.Div3 .Center a:hover {
+    opacity: 65%;
+
+}
+
+
+/* Div4 */
+.Div4{
+    width: auto;
+    height: 300px;
+    background-color: #000080;
+    display: flex;
+    justify-content: center;
+}
+.Div4 .CopyRight{
+    font-family: Dubai;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+}
+.SocialMedia{
+    width: auto;
+    height: 170px;
+    display: flex;
+    /* flex-direction: row; */
+    opacity: 80%;
+} 
+.SocialMedia a{
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bolder;
+    display: flex;
+    margin: auto;
+}
+.SocialMedia a:hover{
+    color: #9b9b9b;
+}
