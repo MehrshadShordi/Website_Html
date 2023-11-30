@@ -51,7 +51,7 @@ body{
 .Div2{
     width: auto;
     height: 700px;
-    background-image: url("/Resource/CallOfDuty.jpg");
+    background-image: url("../Resource/CallOfDuty.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
